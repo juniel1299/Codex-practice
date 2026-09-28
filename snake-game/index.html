@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>스네이크 게임</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><h1>🐍 스네이크</h1><span>점수 <strong id="score">0</strong></span></header>
+  <canvas id="board" width="400" height="400" aria-label="스네이크 게임 보드"></canvas>
+  <label class="color">뱀 색상 <input id="snake-color" type="color" value="#64bb83"></label>
+  <p id="status" role="status">방향키 또는 WASD로 이동하세요.</p>
+  <button id="start">게임 시작</button>
+  <div class="pad" aria-label="방향 조작">
+    <button class="up" data-dir="0,-1" aria-label="위">↑</button>
+    <button class="left" data-dir="-1,0" aria-label="왼쪽">←</button>
+    <button data-dir="0,1" aria-label="아래">↓</button>
+    <button data-dir="1,0" aria-label="오른쪽">→</button>
+  </div>
+  <p>벽이나 몸에 부딪히면 종료 · Space로 다시 시작</p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

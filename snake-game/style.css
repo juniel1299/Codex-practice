@@ -1,0 +1,6 @@
+  *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;background:#101820;color:#e8f2ed;font:16px system-ui;text-align:center}
+  main{width:min(92vw,440px);padding:24px 0}header{display:flex;align-items:center;justify-content:space-between}h1{font-size:26px}strong{color:#9cf59d}
+  canvas{display:block;width:100%;background:#192932;border:1px solid #355047;border-radius:12px;touch-action:none}p{color:#a8bdb5;font-size:14px}
+  button{border:0;border-radius:10px;background:#9cf59d;color:#10291b;padding:12px 22px;font:700 16px system-ui;cursor:pointer}button:focus-visible{outline:3px solid white;outline-offset:3px}
+  .pad{display:grid;grid-template-columns:repeat(3,52px);gap:6px;justify-content:center;margin:18px}.pad button{padding:12px}.up{grid-column:2}.left{grid-column:1}
+  .color{display:flex;align-items:center;justify-content:center;gap:10px;margin:16px}input[type=color]{width:44px;height:32px;padding:2px;border:1px solid #355047;border-radius:6px;background:#192932;cursor:pointer}
